@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb+srv://hd612002_db_user:LWvknxIBIHWZMuHp@cluster0.kb3jdrc.mongodb.net/?appName=Cluster0
+      host: localhost
+      port: 27017
+
+      database: journaldb
+      auto-index-creation: true
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+server:
+  port: 8082
